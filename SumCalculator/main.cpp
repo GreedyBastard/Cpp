@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    //declaring variables
     int a;
     int b;
     int sum;
