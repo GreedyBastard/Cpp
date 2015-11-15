@@ -1,5 +1,3 @@
 # Cpp
 C++ potatoes
 
-
-README
