@@ -31,7 +31,7 @@ int main()
     obj.printFirstMessage(); //creating the object and calling the message function
                              //before the user enter the number, otherwise the message
                              //will be printed only after "doTheMath()" function
-                             // hint: see order of construction, or how constructor are called
+                             // hint: see order of construction, or how constructors are called
 
     cout << "Enter a number: ";
     cin >> n;
