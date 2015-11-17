@@ -1,7 +1,10 @@
 
 
-C++ potatoes
+C++ potatoes goes here!
 
-https://www.thenewboston.com --> Crazy simple tutorials
-https://msdn.microsoft.com   --> Very good examples of codes
-https://en.wikipedia.org     --> Definitions, definnitions, definitions
+
+Links:
+
+https://www.thenewboston.com --> Crazy simple tutorials;
+https://msdn.microsoft.com   --> Very good examples of codes;
+https://en.wikipedia.org     --> Definitions, definnitions, definitions;
