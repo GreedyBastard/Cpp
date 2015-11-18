@@ -10,5 +10,5 @@ Every potatoe is for teaching purpose!
 Documentation:
 
 https://www.thenewboston.com --> Crazy simple tutorials;  
-https://msdn.microsoft.com   --> Very good examples of codes;  
+https://msdn.microsoft.com   --> Very good code examples and explanations;  
 https://en.wikipedia.org     --> Definitions, definitions, definitions;  
