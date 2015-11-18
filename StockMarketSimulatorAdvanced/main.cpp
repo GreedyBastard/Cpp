@@ -31,8 +31,7 @@ public:
         }
 
         cout << "---------------------------------------------" << endl;
-
-        cash = total - a;
+        cash = total - a; //calculate how much money you made
         cout << " \n You made " << cash << " $$$ in " << days <<" days!" << endl;
     }
 
@@ -50,7 +49,7 @@ int main()
     float r;
     int days;
 
-    keepFunctions obj;
+    keepFunctions obj;  //creating the object
     obj.firstMessage(); //print the first message
 
             /* Getting the data from user */
@@ -66,7 +65,8 @@ int main()
     //ok we got the user inputs and stored them in some variables
     //now we pass those values to the object below
 
-    obj.doTheMath(a,r,days);
+    obj.doTheMath(a,r,days); //passing the variables
+
 
 
 
