@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447877669 source:c:\users\greedy\documents\github\cpp\stockmarketsimulatoradvanced\main.cpp
+	<iostream>
+	<cmath>
+
