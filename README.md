@@ -5,7 +5,7 @@ C++ potatoes goes here!
 Make sure you read the License file above!
 Anyone can copy, modify or distribute anything from this repository without charge.  
 
-Every potatoe is for teaching purpose!
+Every potato is for teaching purpose!
 
 Documentation:
 
