@@ -27,12 +27,15 @@ public:
         for(int x = 1; x <= days ; x++){ // x goes from 1 to max days user will enter
 
             total = a * pow(1+r/100, x); // doing the actual math magic
-            cout <<" Day " << x << " ----- " << total << " $$$" << endl; //print the answer for every day
+            cout << fixed <<" Day " << x << " ----- " << total << " $$$" << endl; //print the answer for every day
+            //that << fixed << thing up there will make the program print entire number
+            //using << scientific; instead, will return the program to scientific printing mode
+            //by default, the program will print in scientific mode
         }
 
         cout << "---------------------------------------------" << endl;
         cash = total - a; //calculate how much money you made
-        cout << " \n You made " << cash << " $$$ in " << days <<" days!" << endl;
+        cout << fixed << " \n You made " << cash << " $$$ in " << days <<" days! " << endl;
     }
 
 private:
@@ -53,9 +56,9 @@ int main()
     obj.firstMessage(); //print the first message
 
             /* Getting the data from user */
-    cout << " Enter how much cash you wanna invest: " ;
+    cout << " Enter how much $$$ you wanna invest: " ;
     cin >> a; //store that answer in the "a" variable
-    cout << " Enter interest rate as % : " ;
+    cout << " Enter the % of your interest rate : " ;
     cin >> r; //store that answer in the "r" variable
     cout << " How may days you want to keep the investment: ";
     cin >> days; //store that answer in the "days" variable
@@ -66,8 +69,5 @@ int main()
     //now we pass those values to the object below
 
     obj.doTheMath(a,r,days); //passing the variables
-
-
-
 
 }
