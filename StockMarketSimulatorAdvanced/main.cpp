@@ -17,23 +17,29 @@ class keepFunctions{
 
 public:
 
-    void firstMessage(){
+    void firstMessage(){ //this will print the first message
 
-        cout << " Lets make some money! \n" << endl;
+        cout << " \n Lets make some money! \n" << endl;
     }
-    float doTheMath(float a, float r, int days){
 
-        for(int x = 1; x <= days ; x++){
+    float doTheMath(float a, float r, int days){ //doing the math magic
 
-            total = a * pow(1+r/100, x);
-            cout <<" Day " << x << " ----- " << total << " $$$" << endl;
+        for(int x = 1; x <= days ; x++){ // x goes from 1 to max days user will enter
+
+            total = a * pow(1+r/100, x); // doing the actual math magic
+            cout <<" Day " << x << " ----- " << total << " $$$" << endl; //print the answer for every day
         }
 
+        cout << "---------------------------------------------" << endl;
+
+        cash = total - a;
+        cout << " \n You made " << cash << " $$$ in " << days <<" days!" << endl;
     }
 
 private:
 
-    float total;
+    float total;//money you invested + money you made
+    float cash; //how much money did you made at the end of those days
 
 
 };
@@ -47,17 +53,20 @@ int main()
     keepFunctions obj;
     obj.firstMessage(); //print the first message
 
+            /* Getting the data from user */
     cout << " Enter how much cash you wanna invest: " ;
-    cin >> a;
+    cin >> a; //store that answer in the "a" variable
     cout << " Enter interest rate as % : " ;
-    cin >> r;
-    cout << " How may days you want to keep the investment: " ;
-    cin >> days;
+    cin >> r; //store that answer in the "r" variable
+    cout << " How may days you want to keep the investment: ";
+    cin >> days; //store that answer in the "days" variable
 
-    obj.doTheMath(a,r,days);
-
+    cout << "---------------------------------------------" << endl;
 
     //ok we got the user inputs and stored them in some variables
+    //now we pass those values to the object below
+
+    obj.doTheMath(a,r,days);
 
 
 
