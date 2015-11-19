@@ -58,7 +58,7 @@ int main()
             /* Getting the data from user */
     cout << " Enter how much $$$ you wanna invest: " ;
     cin >> a; //store that answer in the "a" variable
-    cout << " Enter the % of your interest rate : " ;
+    cout << " Enter the % of your interest rate: " ;
     cin >> r; //store that answer in the "r" variable
     cout << " How may days you want to keep the investment: ";
     cin >> days; //store that answer in the "days" variable
