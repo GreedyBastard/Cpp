@@ -32,7 +32,7 @@ int main()
 
     for (int x = 1; x < 25; x++){ //print 25 random numbers
         cout << 1+ (rand()%6) << endl; //%6 will force output numbers from 0 to 5
-        //we add +1 to that, so the output will be 1..6, because we want to simulate a dice
+        //we add +1 to that, so the output will be 1..6, because we want to simulate a dice in this example
     }
 
 }
