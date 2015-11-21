@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1448082721 source:c:\users\greedy\documents\github\cpp\pointerspassbyreference\main.cpp
+	<iostream>
+
+1448083169 source:c:\users\greedy\documents\github\cpp\pointerspassbyaddress\main.cpp
+	<iostream>
+
