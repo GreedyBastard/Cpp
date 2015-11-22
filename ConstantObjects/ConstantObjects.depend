@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1448224423 source:c:\users\greedy\documents\github\cpp\constantobjects\anotherclass.cpp
+	<iostream>
+	"AnotherClass.h"
+
+1448224423 c:\users\greedy\documents\github\cpp\constantobjects\anotherclass.h
+
+1448224470 source:c:\users\greedy\documents\github\cpp\constantobjects\main.cpp
+	<iostream>
+	"AnotherClass.h"
+
