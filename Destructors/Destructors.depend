@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1448222297 source:c:\users\greedy\documents\github\cpp\destructors\anotherclass.cpp
+	<iostream>
+	"AnotherClass.h"
+
+1448222153 c:\users\greedy\documents\github\cpp\destructors\anotherclass.h
+
+1448222326 source:c:\users\greedy\documents\github\cpp\destructors\main.cpp
+	<iostream>
+	"AnotherClass.h"
+
