@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1448197339 source:c:\users\greedy\documents\github\cpp\arrowmember\classname.cpp
+	"className.h"
+	<iostream>
+
+1448197339 c:\users\greedy\documents\github\cpp\arrowmember\classname.h
+
+1448197857 source:c:\users\greedy\documents\github\cpp\arrowmember\main.cpp
+	<iostream>
+	"className.h"
+
