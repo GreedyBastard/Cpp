@@ -20,7 +20,7 @@ int main()
 
     p0 += 2; //add 2 to pointer, it changes what element will point to
               //in this example, adding 2, will point to the element stored 2 indexes away
-              //and that element is bp2
+              //and that element is p2
 
 
     cout << "p0+2 address: " << p0 << endl;
