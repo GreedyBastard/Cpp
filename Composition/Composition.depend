@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1448237883 source:c:\users\greedy\documents\github\cpp\composition\birthday.cpp
+	<iostream>
+	"Birthday.h"
+
+1448237883 c:\users\greedy\documents\github\cpp\composition\birthday.h
+
+1448238044 source:c:\users\greedy\documents\github\cpp\composition\people.cpp
+	<iostream>
+	"Birthday.h"
+	"People.h"
+
+1448238616 c:\users\greedy\documents\github\cpp\composition\people.h
+	<string>
+	"Birthday.h"
+
+1448238423 source:c:\users\greedy\documents\github\cpp\composition\main.cpp
+	<iostream>
+	"Birthday.h"
+	"People.h"
+
