@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1448304492 source:c:\users\greedy\documents\github\cpp\this\main.cpp
+	<iostream>
+	"secondCLass.h"
+
+1448304492 c:\users\greedy\documents\github\cpp\this\secondclass.h
+
+1448305023 source:c:\users\greedy\documents\github\cpp\this\secondclass.cpp
+	<iostream>
+	"secondCLass.h"
+
