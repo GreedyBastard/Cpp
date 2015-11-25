@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1448483039 source:c:\users\greedy\documents\github\cpp\protected\secondclass.cpp
+	<iostream>
+	"secondClass.h"
+	"thirdClass.h"
+
+1448483329 c:\users\greedy\documents\github\cpp\protected\secondclass.h
+
+1448483039 c:\users\greedy\documents\github\cpp\protected\thirdclass.h
+
+1448483107 source:c:\users\greedy\documents\github\cpp\protected\main.cpp
+	<iostream>
+	"secondClass.h"
+	"thirdClass.h"
+
+1448483186 source:c:\users\greedy\documents\github\cpp\protected\thirdclass.cpp
+	<iostream>
+	"secondClass.h"
+	"thirdClass.h"
+
