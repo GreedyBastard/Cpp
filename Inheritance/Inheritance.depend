@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1448473241 source:c:\users\greedy\documents\github\cpp\inheritance\daughter.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1448472947 c:\users\greedy\documents\github\cpp\inheritance\mother.h
+
+1448473114 c:\users\greedy\documents\github\cpp\inheritance\daughter.h
+
+1448473442 source:c:\users\greedy\documents\github\cpp\inheritance\mother.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1448473375 source:c:\users\greedy\documents\github\cpp\inheritance\main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
