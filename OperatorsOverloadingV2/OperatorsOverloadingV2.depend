@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1448467991 source:c:\users\greedy\documents\github\cpp\operatorsoverloadingv2\main.cpp
+	<iostream>
+	"secondClass.h"
+
+1448469091 c:\users\greedy\documents\github\cpp\operatorsoverloadingv2\secondclass.h
+
