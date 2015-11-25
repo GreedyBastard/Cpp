@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="C:/Users/Greedy/Documents/GitHub/Cpp/Protected/" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="C:/Users/Greedy/Documents/GitHub/Cpp/Protected/" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -33,6 +35,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="secondClass.cpp" />
+		<Unit filename="secondClass.h" />
+		<Unit filename="thirdClass.cpp" />
+		<Unit filename="thirdClass.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
