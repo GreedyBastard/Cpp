@@ -2,6 +2,10 @@
 
 using namespace std;
 
+/*
+* Specific implementation according to what type of data is used
+*/
+
 template <class T> //generic template
 
 class ClassName{//can take any type of data
