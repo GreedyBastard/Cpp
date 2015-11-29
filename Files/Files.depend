@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1448805591 source:c:\users\greedy\documents\github\cpp\files\main.cpp
+	<iostream>
+	<fstream>
+
