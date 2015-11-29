@@ -20,7 +20,7 @@ int main()
     int whatTheyWant; //store the menu number user input
 
     cout << "-----------------------------------------------------------\n";
-    cout << "\nPress the corresponding number of what you wanted to print!";
+    cout << "Press the corresponding number of what you wanted to see!\n\n";
 
     whatTheyWant = getWhatTheyWant();// whatTheyWant = whatever number the user will choose
 
@@ -49,7 +49,7 @@ int main()
 int getWhatTheyWant(){
     int choice;
 
-    cout << "1 - just plain items" << endl;
+    cout << "\n1 - just plain items" << endl;
     cout << "2 - helpful items" << endl;
     cout << "3 - harmful items" << endl;
     cout << "4 - quit program\n" << endl;
