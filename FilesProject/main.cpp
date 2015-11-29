@@ -49,8 +49,6 @@ int main()
 int getWhatTheyWant(){
     int choice;
 
-    cout << "-----------------------------------------------------------\n";
-    cout << "Choose a number from 1 to 4!" << endl;
     cout << "\n1 - just plain items" << endl;
     cout << "2 - helpful items" << endl;
     cout << "3 - harmful items" << endl;
@@ -74,6 +72,7 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
 
         while(objectFile >> name >> power){
             if(power == 0){
+                cout << "Plain items:" << endl;
                 cout << name << " " << power << endl;
             }
         }
@@ -82,6 +81,7 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
 
         while(objectFile >> name >> power){
             if(power > 0){
+                cout << "Helpful items:" << endl;
                 cout << name << " " << power << endl;
             }
         }
@@ -90,6 +90,7 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
 
         while(objectFile >> name >> power){
             if(power < 0){
+                cout << "Harmful items:" << endl;
                 cout << name << " " << power << endl;
             }
         }
