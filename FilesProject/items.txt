@@ -9,3 +9,5 @@ door 0
 bed 0
 gun -100
 goku 9001
+wife -1000
+c++ 1000
