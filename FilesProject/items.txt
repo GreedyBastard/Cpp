@@ -1,7 +1,7 @@
 sword -200
 apple 30
 coin 0
-needle - 10
+needle -10
 cake 50
 penniciline 50
 chair 0
