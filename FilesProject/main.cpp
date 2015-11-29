@@ -70,27 +70,32 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
     //test what choice they enter:
     if (x == 1){//if the choice is 1, display plain items, with power = 0
 
+        cout << "Plain items:" << endl;
+
         while(objectFile >> name >> power){
             if(power == 0){
-                cout << "Plain items:" << endl;
                 cout << name << " " << power << endl;
             }
         }
     }
     if (x == 2){//if the choice is 2, display helpful items, with power > 0
 
+        cout << "Helpful items:" << endl;
+
         while(objectFile >> name >> power){
             if(power > 0){
-                cout << "Helpful items:" << endl;
+
                 cout << name << " " << power << endl;
             }
         }
     }
     if (x == 3){//if the choice is 3, display harmful items, with power < 0
 
+        cout << "Harmful items:" << endl;
+
         while(objectFile >> name >> power){
             if(power < 0){
-                cout << "Harmful items:" << endl;
+
                 cout << name << " " << power << endl;
             }
         }
