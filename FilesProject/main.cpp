@@ -20,7 +20,7 @@ int main()
     int whatTheyWant; //store the menu number user input
 
     cout << "-----------------------------------------------------------\n";
-    cout << "Press the corresponding number of what you wanted to see!\n\n";
+    cout << "Press the corresponding number of what you want to see!\n\n";
 
     whatTheyWant = getWhatTheyWant();// whatTheyWant = whatever number the user will choose
 
@@ -49,10 +49,13 @@ int main()
 int getWhatTheyWant(){
     int choice;
 
+    cout << "-----------------------------------------------------------\n";
+    cout << "Choose a number from 1 to 4!" << endl;
     cout << "\n1 - just plain items" << endl;
     cout << "2 - helpful items" << endl;
     cout << "3 - harmful items" << endl;
     cout << "4 - quit program\n" << endl;
+    cout << "-----------------------------------------------------------\n";
 
     cin >> choice; //get the user input and store it in the "choice" var
     return choice; //return that number we stored
