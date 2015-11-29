@@ -15,6 +15,9 @@ int main()
     string name;
     double money;
 
+
+
+    //while (!theFile.eof()) can be used too
     while(theFile >> id >> name >> money){ //read every line until the file pointer is at the end of the file
         cout << id << ", " << name << ", " << money << endl;
     }
