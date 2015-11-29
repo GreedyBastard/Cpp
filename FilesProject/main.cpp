@@ -61,12 +61,12 @@ int getWhatTheyWant(){
 //displayItems function
 void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
 
-    ifstream objectFile("items.txt");
+    ifstream objectFile("items.txt");//open the file where we stored the items data
 
     string name; //store the name of the item
     double power;//store the power of the item
 
-    //test what choice they enter
+    //test what choice they enter:
     if (x == 1){//if the choice is 1, display plain items, with power = 0
 
         while(objectFile >> name >> power){
@@ -75,7 +75,7 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
             }
         }
     }
-    if (x == 2){//if the choice is 2, display plain items, with power > 0
+    if (x == 2){//if the choice is 2, display helpful items, with power > 0
 
         while(objectFile >> name >> power){
             if(power > 0){
@@ -83,7 +83,7 @@ void displayItems(int x){ // x will be = to 1,2 or 3 depending on the user input
             }
         }
     }
-    if (x == 3){//if the choice is 3, display plain items, with power < 0
+    if (x == 3){//if the choice is 3, display harmful items, with power < 0
 
         while(objectFile >> name >> power){
             if(power < 0){
