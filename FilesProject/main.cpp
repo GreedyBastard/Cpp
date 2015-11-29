@@ -23,7 +23,7 @@ int main()
     //if the user choose 4, the program will to close
     while (whatTheyWant != 4){
 
-        whatTheyWant = getWhatTheyWant();
+        whatTheyWant = getWhatTheyWant();//keep calling this function until the user will input 4
     }
 
 }
